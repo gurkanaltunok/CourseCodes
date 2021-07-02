@@ -17,5 +17,4 @@ def selamVer2(name = "Ziyaretçi", surname = "Kullanıcı"):
 selamVer2()
 selamVer2("Gürkan")
 selamVer2("Gürkan","Altunok")
-selamVer2("Engin","Demiroğ")
 

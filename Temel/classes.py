@@ -21,7 +21,7 @@ matematik2 = Matematik(3,76)
 
 print("Sonuç = ",matematik.topla())
 
-#%%
+#%% Property
 class Person:
     def __init__(self,firstName,lastName,age) -> None:
         self.firstName = firstName
@@ -30,3 +30,14 @@ class Person:
 
 person1 = Person("Gürkan","Altunok",33)
 print(person1.firstName)
+
+class Worker(Person):
+    def __init__(self,salary) -> None:
+        self.salary = salary
+
+class Customer(Person):
+    def __init__(self,creditCardNumber) -> None:
+        self.creditCardNumber = creditCardNumber
+
+ahmet = Worker()
+mehmet = Customer()

@@ -13,3 +13,5 @@ print(sozluk)
 del(sozluk["book"])
 print(sozluk)
 print(len(sozluk))
+
+import numpy
